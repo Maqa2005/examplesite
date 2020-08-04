@@ -1,0 +1,64 @@
+@media (max-width: 768px) {
+
+    .card {
+        width: 100%;
+    }
+
+    .mobilesize {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 862px) {
+
+    .orangeback {
+        display: none;
+    }
+
+    .orangeback2 {
+        display: none;
+    }
+
+    nav {
+        display: none;
+    }
+
+    header .icons {
+        display: none;
+    }
+
+    .mobilemenu {
+        display: flex;
+        color: black;
+        font-size: 25px;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .mobilenav {
+        background-color: #FDCE0C;
+        width: 100%;
+        border: 1px solid rgb(202, 202, 202);
+        display: none;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .mobilenav a {
+        padding: 10px 50% 10px 5px;
+    }
+
+    .mobilenav div {
+        margin: 10px 0;
+    }
+
+}
+
+@media (max-width: 817px) {
+
+    .underimg {
+        width: 100%;
+    }
+
+}

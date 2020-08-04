@@ -1,0 +1,379 @@
+body{
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container {
+    padding: 30px 50px;
+}
+
+.logo {
+    width: 190px;
+    height: 60px;
+    
+}
+
+#item1 {
+    text-align: center;
+    position: relative;
+    top: -76px;
+}
+
+#item2 {
+    background-color: #FDCE0C;
+    background-size: 10px;
+}
+
+main {
+    box-shadow: grey 0px 7px 15px 0px;
+    border-radius: 5px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 5px 35px;
+    border-bottom: 1px solid rgb(202, 202, 202);
+    background-color: #F8F8F8;
+}
+
+header h3 {
+    flex-grow: 2;
+}
+
+header div {
+    flex-grow: 3;
+    color: grey;
+    font-size: 13px;
+}
+
+nav {
+    display: flex;
+    flex-grow: 5;
+}
+
+header .item1 {
+    background-color: #FDCE0C;
+}
+
+header .icons {
+    color: black;
+    flex-grow: 5;
+}
+
+header .icons i {
+    margin-right: 10px;
+    float: right;
+}
+
+div a {
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.tdy {
+    text-decoration: underline;
+}
+
+.home {
+    flex-grow: 1;
+}
+
+.navback {
+    display: flex;
+    flex-grow: 3;
+}
+
+.section1 {
+    width: 100%;
+    height: 500px;
+    background-color: #F8F8F8;
+}
+
+.divmain {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    padding-left: 13%;
+}
+
+.section1 .divmain .item1 {
+    color: #FDCE0C;
+}
+
+.section1 .divmain .item2 {
+    background-color: #FDCE0C;
+}
+
+.section1 .divmain .item3 {
+    color: rgb(148, 148, 148);
+    margin-top: 20px;
+    z-index: 2;
+}
+
+.section1 .divmain .item4 {
+    font-size: 50px;
+    z-index: 2;
+}
+
+.section1 .divmain .item5 {
+    font-size: 50px;
+    margin-left: 30px;
+    z-index: 2;
+}
+
+.viewbtn {
+    background-color: #F8F8F8;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px 30px;
+    font-weight: bold;
+    transition: background-color 0.5s, color 0.5s;
+    margin-top: 20px;
+}
+
+.viewbtn:focus {
+    outline: none;
+}
+
+.viewbtn:hover {
+    background-color: black;
+    color: white;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.orangeback {
+    width: 23%;
+    height: 73px;
+    background-color: #FDCE0C;
+    position: absolute;
+    top: 179px;
+    z-index: 1;
+}
+
+.orangeback2 {
+    width: 23%;
+    height: 73px;
+    background-color: #FDCE0C;
+    position: absolute;
+    top: 253px;
+    height: 500px;
+    z-index: 1;
+}
+
+.port {
+    margin-left: 15px;
+    z-index: 2;
+}
+
+.pages {
+    z-index: 2;
+}
+
+.contacts {
+    z-index: 2;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: -10px -10px;
+    min-height: 570px;
+}
+
+.section2 .item1 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: #FDCE0C;
+    background-color: #ffe57e;
+    width: 95px;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.section2 .item2 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    min-height: 300px;
+    margin-bottom: 50px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: grey 0px 5px 25px 0px;
+    border-radius: 10px;
+    width: 250px;
+    height: 300px;
+    margin: 10px 10px;
+    text-align: center;
+}
+
+.card i {
+    color: #FDCE0C;
+    font-size: 40px;
+}
+
+.workspaceimg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    background-image: url("../img/workspace.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.workspaceimg .item1 {
+    background-color: rgb(128, 128, 128, 0.5);
+    width: 63px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.workspaceimg .item2 {
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.button2 {
+    margin-top: 40px;
+    background-color:rgba(0, 0, 0, 0);
+    border: 1px solid white;
+    padding: 30px;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.5s, color 0.5s;  
+}
+
+.button2:focus {
+    outline: none;
+}
+
+.button2:hover {
+    background-color: white;
+    color: black;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.underimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    background: white;
+    margin: 0 auto;
+    position: relative;
+    top: -100px;
+    box-shadow: grey 0px 5px 25px 0px;
+    border-radius: 10px;
+}
+
+.orange {
+    color: #FDCE0C;
+}
+
+.underimg .item1 {
+    padding: 30px 50px;
+    text-align: center;
+}
+
+.underimg .item2 {
+    padding: 30px 50px;
+    text-align: center;
+}
+
+.underimg .item3 {
+    padding: 30px 50px;
+    text-align: center;
+}
+
+.bigtext {
+    font-size: 40px;
+}
+
+.bigtext2 {
+    font-size: 30px;
+}
+
+.section4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.section4 div .item1 .item1 {
+    position: relative;
+    top: -70px;
+    left: 90px;
+}
+
+.section4 div .item2 {
+    position: relative;
+    top: -45px;
+}
+
+.section4 div .item3 {
+    position: relative;
+    top: -33px;
+    left: 45px;
+}
+
+.mobileicon {
+    color: #FDCE0C;
+    box-shadow: grey 0px 5px 25px 0px;
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.grey {
+    color: grey;
+}
+
+.quotes {
+    font-size: 30px;
+}
+
+.iphoneimg{
+    margin-left: 50px;
+}
+
+/* .mobilemenu {
+    display: none;
+    font-size: 25px;
+} */
+
+.mobilenav {
+    display: none;
+    background-color: #FDCE0C;
+    width: 100%;
+}
+
+.toggleicon {
+    padding: 15px;
+}
